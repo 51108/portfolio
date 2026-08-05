@@ -1,0 +1,1213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400..800&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" rel="stylesheet">
+    <link href="styles.css" rel="stylesheet">
+    <title>Zofia Purat</title>
+</head>
+<body>
+    <header class="home-header">
+        <nav>
+            <a href="#uxui">UX/UI &amp; Interactive Web Design</a>
+            <a href="#graphic">Graphic</a>
+            <a href="#museum-studies">Museum Studies</a>
+            <a href="#spatial">Misc</a>
+            <a href="#about">About</a>
+            <button
+                class="nav-contact-button"
+                id="openContact"
+                type="button"
+                aria-haspopup="dialog"
+                aria-controls="contactModal"
+            >Contact</button>
+        </nav>
+
+        <div class="hero-layout">
+            <div class="hero-copy">
+                <h1>Zofia Purat is a designer focused on UX/UI, interactive web design, graphic design, and spatial storytelling.</h1>
+                <p class="hero-note">Based in California. Designing across digital, editorial, and exhibition contexts.</p>
+                <button
+                    class="resume-button"
+                    id="openResume"
+                    type="button"
+                    aria-haspopup="dialog"
+                    aria-controls="resumeModal"
+                >View Resume</button>
+            </div>
+
+            <div class="hero-image-wrap">
+                <img src="images/portalphoto.png" alt="Portrait of Zofia Purat">
+            </div>
+        </div>
+    </header>
+
+    <div class="contact-modal" id="contactModal" aria-hidden="true">
+        <div
+            class="contact-dialog"
+            role="dialog"
+            aria-modal="true"
+            aria-label="Contact information"
+        >
+            <button class="contact-close" id="closeContact" type="button" aria-label="Close contact information">×</button>
+            <div class="contact-details">
+                <div>
+                    <span>Email</span>
+                    <a href="mailto:zofiapurat2001@gmail.com">zofiapurat2001@gmail.com</a>
+                </div>
+                <div>
+                    <span>Phone</span>
+                    <a href="tel:+15103878077">(510) 387-8077</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="autobiography-modal" id="autobiographyModal" aria-hidden="true">
+        <div
+            class="autobiography-dialog"
+            role="dialog"
+            aria-modal="true"
+            aria-labelledby="autobiographyTitle"
+        >
+            <button class="autobiography-close" id="closeAutobiography" type="button" aria-label="Close autobiography">×</button>
+            <p class="autobiography-kicker">Autobiography</p>
+            <h2 id="autobiographyTitle">Held by the Overlooked</h2>
+            <div class="autobiography-copy">
+                <p>For much of my life, I worried that my drifting attention would keep me from ever becoming a productive person. Design showed me the opposite: my habit of noticing what others overlook gives my attention purpose.</p>
+                <p>On walks with my mom in the hills above my childhood home in Berkeley, I remembered not the obvious landmarks but the cracks in a stone bridge forming accidental patterns and torn posters weathered into soft, muted color. When I pointed them out, my mom responded with surprise and delight, as if she were seeing the world briefly through my eyes. Her reaction showed me that my attention to overlooked details was not strange, but perceptive.</p>
+                <p>I now practice that fascination deliberately by gathering scraps, scanning surfaces, and building collages from fragments that might otherwise disappear. What once felt like misplaced attention now feels like an important part of my artistic process. I am drawn to details like worn textures, torn edges, and traces of age because they can give an image mood, history, and emotional weight, making it feel intimate or lived-in. Paying attention to those details gives me both material and inspiration when I begin assembling my own visual work, whether in digital design or physical collage.</p>
+                <p>Because this habit trained me to pay attention to how people notice, move, and remember, it naturally led me to design fields that shape people's experiences of spaces, visual information, and objects. UX/UI design shapes how people move through digital spaces, environmental graphic design shapes how they move through physical ones, and exhibition design shapes how they interpret objects and stories. These fields all shape attention and determine what stays with people after an experience ends. Whether through a screen, an exhibition, or a designed space, I am drawn to work that does more than just communicate “necessary” information. I want to create experiences that invite close attention and deep engagement.</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="resume-modal" id="resumeModal" aria-hidden="true">
+        <div class="resume-dialog" role="dialog" aria-modal="true" aria-label="Zofia Purat resume">
+            <button class="resume-close" id="closeResume" type="button" aria-label="Close resume">×</button>
+            <img src="images/resume.png" alt="Zofia Purat resume">
+        </div>
+    </div>
+
+    <main class="home-main">
+        <section id="about" class="about-section">
+            <div class="section-heading">
+                <h2>About</h2>
+            </div>
+
+            <div class="about-copy">
+                <p>I am a fourth-year multidisciplinary design student at UC Davis with interests in UX/UI & interactive web, graphic, and exhibition design.</p>
+                <p>My work often begins with observation: how people move through space, interpret information, and respond to visual systems.</p>
+                <p>Outside of design, a few of my hobies include painting, collage, travel, thrifting/fashion, and collecting visual references.</p>
+            </div>
+
+            <button
+                class="autobiography-button"
+                id="openAutobiography"
+                type="button"
+                aria-haspopup="dialog"
+                aria-controls="autobiographyModal"
+            >Autobiography</button>
+        </section>
+
+        <section id="uxui" class="work-section">
+            <div class="section-heading">
+                <h2>UX/UI &amp; Interactive Web Design</h2>
+                <p>Research-driven interface and web design exploring user experience, digital interaction, visual communication, and coded storytelling.</p>
+            </div>
+
+            <div class="multi-carousel">
+                <button class="carousel-button prev-multi" type="button" aria-label="Previous UX/UI and interactive projects">←</button>
+
+                <div class="multi-carousel-window">
+                    <div class="carousel-track">
+                <a class="carousel-card" href="https://www.figma.com/proto/J3SHseS0mIzTcvcd2p9LiC/SecondStory?node-id=1-11&viewport=355%2C283%2C0.18&t=UCHvu4N3E1wdaBRG-1&scaling=contain&content-scaling=fixed&page-id=0%3A1" target="_blank" rel="noopener noreferrer">
+                    <h3>Second Story</h3>
+                    <div class="carousel-image">
+                        <img src="images/secondstorycover.png" alt="Preview of Second Story UX/UI project">
+                    </div>
+                    <div class="carousel-copy">
+                        <p>App concept focused on styling secondhand clothing and reducing decision fatigue through guided digital support.</p>
+                        <span>View project</span>
+                    </div>
+                </a>
+
+                <a class="carousel-card" href="https://www.figma.com/proto/YAsjjl4YD8eKKtlnhGsyLD/Final-Case-Study?node-id=1-4&p=f&viewport=101%2C172%2C0.09&t=avnLnkzagQGkAAHy-1&scaling=scale-down-width&content-scaling=fixed&page-id=0%3A1" target="_blank" rel="noopener noreferrer">
+                    <h3>Case Study Work</h3>
+                    <div class="carousel-image">
+                        <img src="images/casestudy.png" alt="Preview of UX/UI case study">
+                    </div>
+                    <div class="carousel-copy">
+                        <p>User flows, interface systems, prototyping, and design decisions shaped through research and testing.</p>
+                        <span>View project</span>
+                    </div>
+                </a>
+
+                <a class="carousel-card" href="https://des117.space/wi2026-taback/zpurat/interactivenar/index.html" target="_blank" rel="noopener noreferrer">
+                    <h3>Texture Hunt</h3>
+                    <div class="carousel-image">
+                        <img src="images/collage1.jpg" alt="Preview of Texture Hunt project">
+                    </div>
+                    <div class="carousel-copy">
+                        <p>An interactive narrative project combining texture, scanning, place-based storytelling, and web structure.</p>
+                        <span>View project</span>
+                    </div>
+                </a>
+
+                <a class="carousel-card" href="https://des117.space/wi2026-taback/zpurat/interactivenar/index.html" target="_blank" rel="noopener noreferrer">
+                    <h3>Blog</h3>
+                    <div class="carousel-image">
+                        <img src="images/blog.png" alt="Preview of blog design">
+                    </div>
+                    <div class="carousel-copy">
+                        <p>A blog designed, written, and coded by me.</p>
+                        <span>View project</span>
+                    </div>
+                </a>
+
+                <a class="carousel-card" href="https://des117.space/wi2026-taback/zpurat/" target="_blank" rel="noopener noreferrer">
+                    <h3>DES 117 Portal</h3>
+                    <div class="carousel-image">
+                        <img src="images/portal.png" alt="Preview of interactive design work">
+                    </div>
+                    <div class="carousel-copy">
+                        <p>A coded portfolio of class work including original layouts, visual content, and interactive design exercises.</p>
+                        <span>View project</span>
+                    </div>
+                </a>
+
+                    </div>
+                </div>
+
+                <button class="carousel-button next-multi" type="button" aria-label="Next UX/UI and interactive projects">→</button>
+            </div>
+
+            <div class="carousel-dots multi-carousel-dots">
+                <button class="dot active" type="button" aria-label="Go to UX/UI and interactive projects 1 and 2"></button>
+                <button class="dot" type="button" aria-label="Go to UX/UI and interactive projects 2 and 3"></button>
+                <button class="dot" type="button" aria-label="Go to UX/UI and interactive projects 3 and 4"></button>
+                <button class="dot" type="button" aria-label="Go to UX/UI and interactive projects 4 and 5"></button>
+                <button class="dot mobile-only-dot" type="button" aria-label="Go to UX/UI and interactive project 5"></button>
+            </div>
+        </section>
+
+        <section id="graphic" class="work-section">
+            <div class="section-heading">
+                <h2>Graphic Design</h2>
+                <p>Typography, layout, branding, and print-based work shaped by image systems and editorial thinking.</p>
+            </div>
+
+            <div class="single-carousel">
+                <button class="carousel-button prev" type="button" aria-label="Previous project">←</button>
+
+                <div class="single-carousel-window">
+                    <div class="single-carousel-track">
+                        <div class="single-project-slide">
+                            <h3>UC Davis Lake Tahoe Science Center Infographic</h3>
+                            <div class="single-project-image">
+                                <img src="images/test.png" alt="UC Davis Lake Tahoe Science Center infographic">
+                            </div>
+                            <div class="single-project-copy">
+                                <p>Informational graphic design focused on hierarchy, clarity, and visual storytelling for a public-facing science center setting.</p>
+                            </div>
+                        </div>
+
+                        <div class="single-project-slide">
+                            <h3>The Lasting Gesture: Editorial Zine</h3>
+                            <div class="single-project-image">
+                                <img src="images/des16zine.jpg" alt="Cover of The Lasting Gesture editorial zine">
+                            </div>
+                            <div class="single-project-copy">
+                                <p>The Lasting Gesture is a zine exploring analog expression, materiality, and imperfection in a digital age. Combining original photography, related artworks and imagery, collage, texture, and experimental typography. Formatted for print as a foldable publication, making its physical construction part of the design experience.</p>
+                            </div>
+                        </div>
+
+                        <div class="single-project-slide">
+                            <h3>Typographic Explorations Poster Series</h3>
+                            <div class="single-project-image">
+                                <img src="images/p21.jpg" alt="Preview of Typographic Explorations Poster Series">
+                            </div>
+                            <div class="single-project-copy">
+                                <p>A typography poster project for a lecture series on type, using hierarchy, scale, and composition to turn event information into a clear and visually expressive system.</p>
+                                <button class="open-zine-button" id="openGraphicFive" type="button">View Posters</button>
+                            </div>
+                        </div>
+
+                        <div class="single-project-slide">
+                            <h3>Product Line Visual Identity Mockup</h3>
+                            <div class="single-project-image">
+                                <img src="images/mockup.jpg" alt="Product line mockup featuring a cohesive visual identity across multiple branded objects">
+                            </div>
+                            <div class="single-project-copy">
+                                <p>I designed a cohesive product line mockup in Photoshop to show how one visual identity can scale across multiple touchpoints. I built a consistent typographic system and color story, applied it across the set, then arranged everything for clear hierarchy and quick readability so it works as a marketing-ready visual. To finish, I used compositing techniques (alignment, perspective, texture, and realistic shadows/lighting) to unify the scene and make the products feel believable and brand-consistent.</p>
+                            </div>
+                        </div>
+
+                        <div class="single-project-slide">
+                            <h3>Letterform Composition Study</h3>
+                            <div class="single-project-image">
+                                <img src="images/p11.png" alt="Typography composition study using cropped letterforms">
+                            </div>
+                            <div class="single-project-copy">
+                                <p>A study in abstraction and legibility using cropped letterforms from one typeface to build dynamic compositions.</p>
+                                <button class="open-zine-button" id="openTypography" type="button">View project</button>
+                            </div>
+                        </div>
+
+                        <div class="single-project-slide">
+                            <h3>Pattern Zine</h3>
+                            <div class="single-project-image">
+                                <img src="images/project3.png" alt="Pattern zine cover">
+                            </div>
+                            <div class="single-project-copy">
+                                <p>Layout-driven work centered on rhythm, hierarchy, texture, and the visual language of type.</p>
+                                <button class="open-zine-button" id="openZine" type="button">View project</button>
+                            </div>
+                        </div>
+
+                        <div class="single-project-slide">
+                            <h3>Poster Design for AJ Lee &amp; Blue Summit</h3>
+                            <div class="single-project-image">
+                                <img src="images/ajlee.png" alt="Preview of AJ Lee Blue Summit Poster">
+                            </div>
+                            <div class="single-project-copy">
+                                <p>Promotional graphic design for bluegrass band, using Adobe Photoshop and Illustrator.</p>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+                <button class="carousel-button next" type="button" aria-label="Next project">→</button>
+            </div>
+
+            <div class="carousel-dots">
+                <button class="dot active" type="button" aria-label="Go to slide 1"></button>
+                <button class="dot" type="button" aria-label="Go to slide 2"></button>
+                <button class="dot" type="button" aria-label="Go to slide 3"></button>
+                <button class="dot" type="button" aria-label="Go to slide 4"></button>
+                <button class="dot" type="button" aria-label="Go to slide 5"></button>
+                <button class="dot" type="button" aria-label="Go to slide 6"></button>
+                <button class="dot mobile-only-dot" type="button" aria-label="Go to slide 7"></button>
+            </div>
+
+            <div class="zine-modal" id="zineModal" aria-hidden="true">
+                <div class="zine-modal-inner">
+                    <button class="zine-close" id="closeZine" type="button" aria-label="Close zine">×</button>
+
+                    <div class="zine-slider-wrap">
+                        <button class="zine-nav prev" id="prevZineSlide" type="button" aria-label="Previous zine page">←</button>
+
+                        <div class="zine-slider-window">
+                            <div class="zine-slider-track" id="zineSliderTrack">
+                                <div class="zine-slide">
+                                    <img src="images/project3.png" alt="Zine cover">
+                                </div>
+                                <div class="zine-slide">
+                                    <img src="images/zine2.jpg" alt="Zine spread 1">
+                                </div>
+                                <div class="zine-slide">
+                                    <img src="images/zine3.jpg" alt="Zine spread 2">
+                                </div>
+                                <div class="zine-slide">
+                                    <img src="images/zine4.jpg" alt="Zine spread 3">
+                                </div>
+                                <div class="zine-slide">
+                                    <img src="images/zine5.jpg" alt="Zine spread 4">
+                                </div>
+                            </div>
+                        </div>
+
+                        <button class="zine-nav next" id="nextZineSlide" type="button" aria-label="Next zine page">→</button>
+                    </div>
+
+                    <div class="zine-dots">
+                        <button class="zine-dot active" type="button" aria-label="Go to zine slide 1"></button>
+                        <button class="zine-dot" type="button" aria-label="Go to zine slide 2"></button>
+                        <button class="zine-dot" type="button" aria-label="Go to zine slide 3"></button>
+                        <button class="zine-dot" type="button" aria-label="Go to zine slide 4"></button>
+                        <button class="zine-dot" type="button" aria-label="Go to zine slide 5"></button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="zine-modal" id="typographyModal" aria-hidden="true">
+                <div class="zine-modal-inner">
+                    <button class="zine-close" id="closeTypography" type="button" aria-label="Close typography project">×</button>
+
+                    <div class="zine-slider-wrap">
+                        <button class="zine-nav prev" id="prevTypographySlide" type="button" aria-label="Previous typography image">←</button>
+
+                        <div class="zine-slider-window">
+                            <div class="zine-slider-track" id="typographySliderTrack">
+                                <div class="zine-slide">
+                                    <img src="images/p11.png" alt="Typography composition 1">
+                                </div>
+                                <div class="zine-slide">
+                                    <img src="images/p12.png" alt="Typography composition 2">
+                                </div>
+                                <div class="zine-slide">
+                                    <img src="images/p13.png" alt="Typography composition 3">
+                                </div>
+                                <div class="zine-slide">
+                                    <img src="images/p14.png" alt="Typography composition 4">
+                                </div>
+                            </div>
+                        </div>
+
+                        <button class="zine-nav next" id="nextTypographySlide" type="button" aria-label="Next typography image">→</button>
+                    </div>
+
+                    <div class="zine-dots">
+                        <button class="zine-dot active" type="button" aria-label="Go to typography slide 1"></button>
+                        <button class="zine-dot" type="button" aria-label="Go to typography slide 2"></button>
+                        <button class="zine-dot" type="button" aria-label="Go to typography slide 3"></button>
+                        <button class="zine-dot" type="button" aria-label="Go to typography slide 4"></button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="zine-modal" id="graphicFiveModal" aria-hidden="true">
+                <div class="zine-modal-inner">
+                    <button class="zine-close" id="closeGraphicFive" type="button" aria-label="Close graphic project five">×</button>
+
+                    <div class="zine-slider-wrap">
+                        <button class="zine-nav prev" id="prevGraphicFiveSlide" type="button" aria-label="Previous graphic project five image">←</button>
+
+                        <div class="zine-slider-window">
+                            <div class="zine-slider-track" id="graphicFiveSliderTrack">
+                                <div class="zine-slide">
+                                    <img src="images/p21.jpg" alt="Graphic project five slide 1">
+                                </div>
+                                <div class="zine-slide">
+                                    <img src="images/p22.jpg" alt="Graphic project five slide 2">
+                                </div>
+                                <div class="zine-slide">
+                                    <img src="images/p23.jpg" alt="Graphic project five slide 3">
+                                </div>
+                                <div class="zine-slide">
+                                    <img src="images/p24.jpg" alt="Graphic project five slide 4">
+                                </div>
+                            </div>
+                        </div>
+
+                        <button class="zine-nav next" id="nextGraphicFiveSlide" type="button" aria-label="Next graphic project five image">→</button>
+                    </div>
+
+                    <div class="zine-dots">
+                        <button class="zine-dot active" type="button" aria-label="Go to graphic project five slide 1"></button>
+                        <button class="zine-dot" type="button" aria-label="Go to graphic project five slide 2"></button>
+                        <button class="zine-dot" type="button" aria-label="Go to graphic project five slide 3"></button>
+                        <button class="zine-dot" type="button" aria-label="Go to graphic project five slide 4"></button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="museum-studies" class="work-section">
+            <div class="section-heading">
+                <h2>Museum Studies</h2>
+                <p>Research, writing, and design work exploring museums, exhibitions, visitor experience, interpretation, rhetoric, and visual communication.</p>
+            </div>
+
+            <div class="multi-carousel">
+                <button class="carousel-button prev-multi" type="button" aria-label="Previous museum studies projects">←</button>
+
+                <div class="multi-carousel-window">
+                    <div class="carousel-track">
+                <article class="carousel-card">
+                    <h3>Object Label Design</h3>
+                    <div class="carousel-image">
+                        <img src="images/placard1ve.png" alt="Object label designed for visually impaired museum visitors">
+                    </div>
+                    <div class="carousel-copy">
+                        <p> 4 object label designs, exploring how the same artwork can be communicated differently for 2 distinct audiences. Audience contexts: young adults and visually impaired visitors. I adapted tone, content, and visual hierarchy to create more engaging and accessible experiences.</p>
+                        <button class="open-zine-button" id="openObjectLabels" type="button">View project</button>
+                    </div>
+                </article>
+
+                <a class="carousel-card" href="https://docs.google.com/document/d/1bWFBT5IpjItknew0WGt2ylwHYCnU9FrPt_tyIGzodHw/edit?usp=sharing" target="_blank" rel="noopener noreferrer">
+                    <h3>Exhibition Design &amp; Environmental Graphics Proposal</h3>
+                    <div class="carousel-image">
+                        <img src="images/uwpexhibition.png" alt="Preview of the exhibition design and environmental graphics proposal">
+                    </div>
+                    <div class="carousel-copy">
+                        <p>This speculative exhibition design proposal explores how environmental graphics, wayfinding, digital interaction, and spatial storytelling can shape a museum experience. Designed around a fictional mixed-media exhibition about memory, place, and change, the project connects wall graphics, floor routes, projections, interactive labels, and visitor participation into one cohesive interpretive system.</p>
+                        <span>View project</span>
+                    </div>
+                </a>
+
+                <a class="carousel-card" href="https://docs.google.com/document/d/1jVGshYW8xelsBY1qdbpn0MId3tTnMiAo/edit?usp=sharing&ouid=103988977561433664097&rtpof=true&sd=true" target="_blank" rel="noopener noreferrer">
+                    <h3>Memorandum</h3>
+                    <div class="carousel-image">
+                        <img src="images/painting.jpg" alt="Preview of the de Young Museum memorandum">
+                    </div>
+                    <div class="carousel-copy">
+                        <p>Evaluation of interactive media and placards in support of visitor engagement and education goals.<br>Museum: de Young, San Francisco.</p>
+                        <span>Read piece</span>
+                    </div>
+                </a>
+
+                <a class="carousel-card" href="https://1drv.ms/w/c/258709d611ac9054/IQBbJT0PuwCoS5z3rr-2zIoBAVcx_yMuaztTdNvGiBxRMGI" target="_blank" rel="noopener noreferrer">
+                    <h3>Essay: Designing Reverence</h3>
+                    <div class="carousel-image">
+                        <img src="images/legion.jpg" alt="Preview of the Legion of Honor essay">
+                    </div>
+                    <div class="carousel-copy">
+                        <p>A study of how architecture, atmosphere, and exhibition design shape movement and meaning in museum space. Museum: Legion of Honor, San Francsico.</p>
+                        <span>Read piece</span>
+                    </div>
+                </a>
+
+                    </div>
+                </div>
+
+                <button class="carousel-button next-multi" type="button" aria-label="Next museum studies projects">→</button>
+            </div>
+
+            <div class="carousel-dots multi-carousel-dots">
+                <button class="dot active" type="button" aria-label="Go to museum studies projects 1 and 2"></button>
+                <button class="dot" type="button" aria-label="Go to museum studies projects 2 and 3"></button>
+                <button class="dot" type="button" aria-label="Go to museum studies projects 3 and 4"></button>
+                <button class="dot mobile-only-dot" type="button" aria-label="Go to museum studies project 4"></button>
+            </div>
+
+            <div class="zine-modal" id="objectLabelsModal" aria-hidden="true">
+                <div class="zine-modal-inner" role="dialog" aria-modal="true" aria-label="Object label design project">
+                    <button class="zine-close" id="closeObjectLabels" type="button" aria-label="Close object label design project">×</button>
+
+                    <div class="zine-slider-wrap">
+                        <button class="zine-nav prev" id="prevObjectLabel" type="button" aria-label="Previous object label">←</button>
+
+                        <div class="zine-slider-window">
+                            <div class="zine-slider-track" id="objectLabelsSliderTrack">
+                                <div class="zine-slide">
+                                    <img src="images/placard1ve.png" alt="Museum placard for visually impaired visitors, artwork one">
+                                </div>
+                                <div class="zine-slide">
+                                    <img src="images/placard2ve.png" alt="Museum placard for visually impaired visitors, artwork two">
+                                </div>
+                                <div class="zine-slide">
+                                    <img src="images/placard3museumhack.png" alt="Museum placard for young adult visitors, artwork one">
+                                </div>
+                                <div class="zine-slide">
+                                    <img src="images/placard4museumhack.png" alt="Museum placard for young adult visitors, artwork two">
+                                </div>
+                            </div>
+                        </div>
+
+                        <button class="zine-nav next" id="nextObjectLabel" type="button" aria-label="Next object label">→</button>
+                    </div>
+
+                    <div class="zine-dots">
+                        <button class="zine-dot active" type="button" aria-label="Go to object label 1"></button>
+                        <button class="zine-dot" type="button" aria-label="Go to object label 2"></button>
+                        <button class="zine-dot" type="button" aria-label="Go to object label 3"></button>
+                        <button class="zine-dot" type="button" aria-label="Go to object label 4"></button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="spatial" class="work-section">
+            <div class="section-heading">
+                <h2>Other Design Projects</h2>
+            </div>
+
+            <div class="single-carousel">
+                <button class="carousel-button prev-spatial" type="button" aria-label="Previous spatial project">←</button>
+
+                <div class="single-carousel-window">
+                    <div class="single-carousel-track spatial-track">
+                        <div class="single-project-slide">
+                            <h3>Set Design: The Curious Incident of the Dog in the Night-Time</h3>
+                            <div class="single-project-image">
+                                <img src="images/setdesigncover.png" alt="Preview of Curious Incident set design">
+                            </div>
+                            <div class="single-project-copy">
+                                <p>This set design project explores how design, architecture, and staging can shape emotion, movement, and perspective. I developed the design in scale, hand-built the model, and used Adobe Creative Suite to simulate projected imagery and lighting effects. The final design balances the practical needs of performance with the play’s immersive, psychologically charged atmosphere.</p>
+                                <button class="open-zine-button" id="openSpatial" type="button">View Presentation</button>
+                            </div>
+                        </div>
+
+                        <a class="single-project-slide" href="https://www.ifixit.com/Guide/Altering+an+Oversized+Shirt+with+a+Ribbon+Corset+Technique/201028" target="_blank" rel="noopener noreferrer">
+                            <h3>iFixit Repair Guide</h3>
+                            <div class="single-project-image">
+                                <img class="ifixit-preview" src="images/ifixit.png" alt="Preview of iFixit guide">
+                            </div>
+                            <div class="single-project-copy">
+                                <p>A published instructional guide combining writing, photography, and editing to communicate a clear making process.</p>
+                                <span class="open-zine-button">View Guide</span>
+                            </div>
+                        </a>
+
+                        <div class="single-project-slide">
+                            <h3>Architecture: Residential</h3>
+                            <div class="single-project-image">
+                                <img src="images/moodboard.png" alt="Preview of second spatial project">
+                            </div>
+                            <div class="single-project-copy">
+                                <p>Drafter/designed a residential home, based on a real vacant lot in Oakland. The design was developed in scale and according to site-specific codes, regulations, and dimensional requirements, grounding the design in both concept and feasibility. I created a mood board showing my vision for the visual style of the home, as well as hand drafted the floor and roof plans.</p>
+                                <button class="open-zine-button" id="openSpatialTwo" type="button">View Floor Plans</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <button class="carousel-button next-spatial" type="button" aria-label="Next spatial project">→</button>
+            </div>
+
+            <div class="carousel-dots spatial-dots">
+                <button class="dot active" type="button" aria-label="Go to spatial slide 1"></button>
+                <button class="dot" type="button" aria-label="Go to spatial slide 2"></button>
+                <button class="dot" type="button" aria-label="Go to spatial slide 3"></button>
+            </div>
+
+            <div class="zine-modal" id="spatialModal" aria-hidden="true">
+                <div class="zine-modal-inner">
+                    <button class="zine-close" id="closeSpatial" type="button" aria-label="Close spatial project">×</button>
+
+                    <div class="zine-slider-wrap">
+                        <button class="zine-nav prev" id="prevSpatialSlide" type="button" aria-label="Previous spatial image">←</button>
+
+                        <div class="zine-slider-window">
+                            <div class="zine-slider-track" id="spatialSliderTrack">
+                                <div class="zine-slide"><img src="images/slide1.jpg" alt="Spatial project slide 1"></div>
+                                <div class="zine-slide"><img src="images/slide2.jpg" alt="Spatial project slide 2"></div>
+                                <div class="zine-slide"><img src="images/slide3.jpg" alt="Spatial project slide 3"></div>
+                                <div class="zine-slide"><img src="images/slide4.jpg" alt="Spatial project slide 4"></div>
+                                <div class="zine-slide"><img src="images/slide5.jpg" alt="Spatial project slide 5"></div>
+                                <div class="zine-slide"><img src="images/slide6.jpg" alt="Spatial project slide 6"></div>
+                                <div class="zine-slide"><img src="images/slide7.jpg" alt="Spatial project slide 7"></div>
+                                <div class="zine-slide"><img src="images/slide8.jpg" alt="Spatial project slide 8"></div>
+                                <div class="zine-slide"><img src="images/slide9.jpg" alt="Spatial project slide 9"></div>
+                            </div>
+                        </div>
+
+                        <button class="zine-nav next" id="nextSpatialSlide" type="button" aria-label="Next spatial image">→</button>
+                    </div>
+
+                    <div class="zine-dots">
+                        <button class="zine-dot active" type="button" aria-label="Go to spatial image 1"></button>
+                        <button class="zine-dot" type="button" aria-label="Go to spatial image 2"></button>
+                        <button class="zine-dot" type="button" aria-label="Go to spatial image 3"></button>
+                        <button class="zine-dot" type="button" aria-label="Go to spatial image 4"></button>
+                        <button class="zine-dot" type="button" aria-label="Go to spatial image 5"></button>
+                        <button class="zine-dot" type="button" aria-label="Go to spatial image 6"></button>
+                        <button class="zine-dot" type="button" aria-label="Go to spatial image 7"></button>
+                        <button class="zine-dot" type="button" aria-label="Go to spatial image 8"></button>
+                        <button class="zine-dot" type="button" aria-label="Go to spatial image 9"></button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="zine-modal" id="spatialTwoModal" aria-hidden="true">
+                <div class="zine-modal-inner">
+                    <button class="zine-close" id="closeSpatialTwo" type="button" aria-label="Close second spatial project">×</button>
+
+                    <div class="zine-slider-wrap">
+                        <button class="zine-nav prev" id="prevSpatialTwoSlide" type="button" aria-label="Previous second spatial image">←</button>
+
+                        <div class="zine-slider-window">
+                            <div class="zine-slider-track" id="spatialTwoSliderTrack">
+                                <div class="zine-slide"><img src="images/arch1.png" alt="Second spatial project slide 1"></div>
+                                <div class="zine-slide"><img src="images/arch2.png" alt="Second spatial project slide 2"></div>
+                                <div class="zine-slide"><img src="images/arch3.png" alt="Second spatial project slide 3"></div>
+                            </div>
+                        </div>
+
+                        <button class="zine-nav next" id="nextSpatialTwoSlide" type="button" aria-label="Next second spatial image">→</button>
+                    </div>
+
+                    <div class="zine-dots">
+                        <button class="zine-dot active" type="button" aria-label="Go to second spatial image 1"></button>
+                        <button class="zine-dot" type="button" aria-label="Go to second spatial image 2"></button>
+                        <button class="zine-dot" type="button" aria-label="Go to second spatial image 3"></button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <script>
+        const contactModal = document.getElementById('contactModal');
+        const openContactButton = document.getElementById('openContact');
+        const closeContactButton = document.getElementById('closeContact');
+
+        function openContact() {
+            contactModal.classList.add('active');
+            contactModal.setAttribute('aria-hidden', 'false');
+            document.body.classList.add('modal-open');
+            closeContactButton.focus();
+        }
+
+        function closeContact() {
+            contactModal.classList.remove('active');
+            contactModal.setAttribute('aria-hidden', 'true');
+            document.body.classList.remove('modal-open');
+            openContactButton.focus();
+        }
+
+        openContactButton.addEventListener('click', openContact);
+        closeContactButton.addEventListener('click', closeContact);
+
+        contactModal.addEventListener('click', (event) => {
+            if (event.target === contactModal) {
+                closeContact();
+            }
+        });
+
+        document.addEventListener('keydown', (event) => {
+            if (event.key === 'Escape' && contactModal.classList.contains('active')) {
+                closeContact();
+            }
+        });
+
+        const autobiographyModal = document.getElementById('autobiographyModal');
+        const openAutobiographyButton = document.getElementById('openAutobiography');
+        const closeAutobiographyButton = document.getElementById('closeAutobiography');
+        const resumeModal = document.getElementById('resumeModal');
+        const openResumeButton = document.getElementById('openResume');
+        const closeResumeButton = document.getElementById('closeResume');
+
+        function openAutobiography() {
+            autobiographyModal.classList.add('active');
+            autobiographyModal.setAttribute('aria-hidden', 'false');
+            document.body.classList.add('modal-open');
+            closeAutobiographyButton.focus();
+        }
+
+        function closeAutobiography() {
+            autobiographyModal.classList.remove('active');
+            autobiographyModal.setAttribute('aria-hidden', 'true');
+            document.body.classList.remove('modal-open');
+            openAutobiographyButton.focus();
+        }
+
+        openAutobiographyButton.addEventListener('click', openAutobiography);
+        closeAutobiographyButton.addEventListener('click', closeAutobiography);
+
+        autobiographyModal.addEventListener('click', (event) => {
+            if (event.target === autobiographyModal) {
+                closeAutobiography();
+            }
+        });
+
+        document.addEventListener('keydown', (event) => {
+            if (event.key === 'Escape' && autobiographyModal.classList.contains('active')) {
+                closeAutobiography();
+            }
+        });
+
+        function openResume() {
+            resumeModal.classList.add('active');
+            resumeModal.setAttribute('aria-hidden', 'false');
+            document.body.classList.add('modal-open');
+            closeResumeButton.focus();
+        }
+
+        function closeResume() {
+            resumeModal.classList.remove('active');
+            resumeModal.setAttribute('aria-hidden', 'true');
+            document.body.classList.remove('modal-open');
+            openResumeButton.focus();
+        }
+
+        openResumeButton.addEventListener('click', openResume);
+        closeResumeButton.addEventListener('click', closeResume);
+
+        resumeModal.addEventListener('click', (event) => {
+            if (event.target === resumeModal) {
+                closeResume();
+            }
+        });
+
+        document.addEventListener('keydown', (event) => {
+            if (event.key === 'Escape' && resumeModal.classList.contains('active')) {
+                closeResume();
+            }
+        });
+
+        document.querySelectorAll('.multi-carousel').forEach((carousel) => {
+            const multiTrack = carousel.querySelector('.carousel-track');
+            const multiSlides = Array.from(multiTrack.querySelectorAll('.carousel-card'));
+            const multiSection = carousel.closest('.work-section');
+            const multiPrevButton = carousel.querySelector('.prev-multi');
+            const multiNextButton = carousel.querySelector('.next-multi');
+            const multiDots = multiSection.querySelectorAll('.multi-carousel-dots .dot');
+            let currentMultiIndex = 0;
+
+            function getMaxMultiIndex() {
+                const visibleSlides = window.innerWidth <= 700 ? 1 : 2;
+                return Math.max(0, multiSlides.length - visibleSlides);
+            }
+
+            function updateMultiCarousel() {
+                const slideOffset = multiSlides[currentMultiIndex].offsetLeft - multiSlides[0].offsetLeft;
+                multiTrack.style.transform = `translateX(-${slideOffset}px)`;
+                multiDots.forEach((dot, index) => {
+                    dot.classList.toggle('active', index === currentMultiIndex);
+                });
+            }
+
+            multiPrevButton.addEventListener('click', () => {
+                const maxMultiIndex = getMaxMultiIndex();
+                currentMultiIndex = (currentMultiIndex - 1 + maxMultiIndex + 1) % (maxMultiIndex + 1);
+                updateMultiCarousel();
+            });
+
+            multiNextButton.addEventListener('click', () => {
+                const maxMultiIndex = getMaxMultiIndex();
+                currentMultiIndex = (currentMultiIndex + 1) % (maxMultiIndex + 1);
+                updateMultiCarousel();
+            });
+
+            multiDots.forEach((dot, index) => {
+                dot.addEventListener('click', () => {
+                    currentMultiIndex = index;
+                    updateMultiCarousel();
+                });
+            });
+
+            window.addEventListener('resize', () => {
+                currentMultiIndex = Math.min(currentMultiIndex, getMaxMultiIndex());
+                updateMultiCarousel();
+            });
+            updateMultiCarousel();
+        });
+
+        const graphicSection = document.querySelector('#graphic');
+        const track = graphicSection.querySelector('.single-carousel-track');
+        const slides = graphicSection.querySelectorAll('.single-project-slide');
+        const prevBtn = graphicSection.querySelector('.carousel-button.prev');
+        const nextBtn = graphicSection.querySelector('.carousel-button.next');
+        const dots = graphicSection.querySelectorAll('.dot');
+        let currentSlide = 0;
+
+        function getMaxGraphicSlide() {
+            const visibleSlides = window.innerWidth <= 700 ? 1 : 2;
+            return Math.max(0, slides.length - visibleSlides);
+        }
+
+        function updateCarousel() {
+            const slideOffset = slides[currentSlide].offsetLeft - slides[0].offsetLeft;
+            track.style.transform = `translateX(-${slideOffset}px)`;
+            dots.forEach((dot, index) => {
+                dot.classList.toggle('active', index === currentSlide);
+            });
+        }
+
+        prevBtn.addEventListener('click', () => {
+            const maxGraphicSlide = getMaxGraphicSlide();
+            currentSlide = (currentSlide - 1 + maxGraphicSlide + 1) % (maxGraphicSlide + 1);
+            updateCarousel();
+        });
+
+        nextBtn.addEventListener('click', () => {
+            const maxGraphicSlide = getMaxGraphicSlide();
+            currentSlide = (currentSlide + 1) % (maxGraphicSlide + 1);
+            updateCarousel();
+        });
+
+        dots.forEach((dot, index) => {
+            dot.addEventListener('click', () => {
+                currentSlide = index;
+                updateCarousel();
+            });
+        });
+
+        window.addEventListener('resize', () => {
+            currentSlide = Math.min(currentSlide, getMaxGraphicSlide());
+            updateCarousel();
+        });
+        updateCarousel();
+
+        const zineModal = document.getElementById('zineModal');
+        const openZineButton = document.getElementById('openZine');
+        const closeZineButton = document.getElementById('closeZine');
+        const zineTrack = document.getElementById('zineSliderTrack');
+        const zineSlides = zineTrack.querySelectorAll('.zine-slide');
+        const prevZineSlide = document.getElementById('prevZineSlide');
+        const nextZineSlide = document.getElementById('nextZineSlide');
+        const zineDots = zineModal.querySelectorAll('.zine-dot');
+
+        let currentZineSlide = 0;
+
+        function updateZineSlider() {
+            zineTrack.style.transform = `translateX(-${currentZineSlide * 100}%)`;
+            zineDots.forEach((dot, index) => {
+                dot.classList.toggle('active', index === currentZineSlide);
+            });
+        }
+
+        openZineButton.addEventListener('click', () => {
+            currentZineSlide = 0;
+            updateZineSlider();
+            zineModal.classList.add('active');
+            zineModal.setAttribute('aria-hidden', 'false');
+        });
+
+        closeZineButton.addEventListener('click', () => {
+            zineModal.classList.remove('active');
+            zineModal.setAttribute('aria-hidden', 'true');
+        });
+
+        zineModal.addEventListener('click', (e) => {
+            if (e.target === zineModal) {
+                zineModal.classList.remove('active');
+                zineModal.setAttribute('aria-hidden', 'true');
+            }
+        });
+
+        prevZineSlide.addEventListener('click', () => {
+            currentZineSlide = (currentZineSlide - 1 + zineSlides.length) % zineSlides.length;
+            updateZineSlider();
+        });
+
+        nextZineSlide.addEventListener('click', () => {
+            currentZineSlide = (currentZineSlide + 1) % zineSlides.length;
+            updateZineSlider();
+        });
+
+        zineDots.forEach((dot, index) => {
+            dot.addEventListener('click', () => {
+                currentZineSlide = index;
+                updateZineSlider();
+            });
+        });
+
+        updateZineSlider();
+
+        const typographyModal = document.getElementById('typographyModal');
+        const openTypographyButton = document.getElementById('openTypography');
+        const closeTypographyButton = document.getElementById('closeTypography');
+        const typographyTrack = document.getElementById('typographySliderTrack');
+        const typographySlides = typographyTrack.querySelectorAll('.zine-slide');
+        const prevTypographySlide = document.getElementById('prevTypographySlide');
+        const nextTypographySlide = document.getElementById('nextTypographySlide');
+        const typographyDots = typographyModal.querySelectorAll('.zine-dot');
+
+        let currentTypographySlide = 0;
+
+        function updateTypographySlider() {
+            typographyTrack.style.transform = `translateX(-${currentTypographySlide * 100}%)`;
+            typographyDots.forEach((dot, index) => {
+                dot.classList.toggle('active', index === currentTypographySlide);
+            });
+        }
+
+        openTypographyButton.addEventListener('click', () => {
+            currentTypographySlide = 0;
+            updateTypographySlider();
+            typographyModal.classList.add('active');
+            typographyModal.setAttribute('aria-hidden', 'false');
+        });
+
+        closeTypographyButton.addEventListener('click', () => {
+            typographyModal.classList.remove('active');
+            typographyModal.setAttribute('aria-hidden', 'true');
+        });
+
+        typographyModal.addEventListener('click', (e) => {
+            if (e.target === typographyModal) {
+                typographyModal.classList.remove('active');
+                typographyModal.setAttribute('aria-hidden', 'true');
+            }
+        });
+
+        prevTypographySlide.addEventListener('click', () => {
+            currentTypographySlide = (currentTypographySlide - 1 + typographySlides.length) % typographySlides.length;
+            updateTypographySlider();
+        });
+
+        nextTypographySlide.addEventListener('click', () => {
+            currentTypographySlide = (currentTypographySlide + 1) % typographySlides.length;
+            updateTypographySlider();
+        });
+
+        typographyDots.forEach((dot, index) => {
+            dot.addEventListener('click', () => {
+                currentTypographySlide = index;
+                updateTypographySlider();
+            });
+        });
+
+        updateTypographySlider();
+
+        const spatialSection = document.querySelector('#spatial');
+        const spatialTrack = spatialSection.querySelector('.spatial-track');
+        const spatialSlides = spatialSection.querySelectorAll('.single-project-slide');
+        const spatialPrevBtn = spatialSection.querySelector('.prev-spatial');
+        const spatialNextBtn = spatialSection.querySelector('.next-spatial');
+        const spatialDots = spatialSection.querySelectorAll('.carousel-dots .dot');
+
+        let currentSpatialSlide = 0;
+
+        function updateSpatialCarousel() {
+            const slideOffset = spatialSlides[currentSpatialSlide].offsetLeft - spatialSlides[0].offsetLeft;
+            spatialTrack.style.transform = `translateX(-${slideOffset}px)`;
+            spatialDots.forEach((dot, index) => {
+                dot.classList.toggle('active', index === currentSpatialSlide);
+            });
+        }
+
+        spatialPrevBtn.addEventListener('click', () => {
+            currentSpatialSlide = (currentSpatialSlide - 1 + spatialSlides.length) % spatialSlides.length;
+            updateSpatialCarousel();
+        });
+
+        spatialNextBtn.addEventListener('click', () => {
+            currentSpatialSlide = (currentSpatialSlide + 1) % spatialSlides.length;
+            updateSpatialCarousel();
+        });
+
+        spatialDots.forEach((dot, index) => {
+            dot.addEventListener('click', () => {
+                currentSpatialSlide = index;
+                updateSpatialCarousel();
+            });
+        });
+
+        window.addEventListener('resize', updateSpatialCarousel);
+        updateSpatialCarousel();
+
+        const spatialModal = document.getElementById('spatialModal');
+        const openSpatialButton = document.getElementById('openSpatial');
+        const closeSpatialButton = document.getElementById('closeSpatial');
+        const spatialSliderTrack = document.getElementById('spatialSliderTrack');
+        const spatialModalSlides = spatialSliderTrack.querySelectorAll('.zine-slide');
+        const prevSpatialSlide = document.getElementById('prevSpatialSlide');
+        const nextSpatialSlide = document.getElementById('nextSpatialSlide');
+        const spatialModalDots = spatialModal.querySelectorAll('.zine-dot');
+
+        let currentSpatialModalSlide = 0;
+
+        function updateSpatialSlider() {
+            spatialSliderTrack.style.transform = `translateX(-${currentSpatialModalSlide * 100}%)`;
+            spatialModalDots.forEach((dot, index) => {
+                dot.classList.toggle('active', index === currentSpatialModalSlide);
+            });
+        }
+
+        openSpatialButton.addEventListener('click', () => {
+            currentSpatialModalSlide = 0;
+            updateSpatialSlider();
+            spatialModal.classList.add('active');
+            spatialModal.setAttribute('aria-hidden', 'false');
+        });
+
+        closeSpatialButton.addEventListener('click', () => {
+            spatialModal.classList.remove('active');
+            spatialModal.setAttribute('aria-hidden', 'true');
+        });
+
+        spatialModal.addEventListener('click', (e) => {
+            if (e.target === spatialModal) {
+                spatialModal.classList.remove('active');
+                spatialModal.setAttribute('aria-hidden', 'true');
+            }
+        });
+
+        prevSpatialSlide.addEventListener('click', () => {
+            currentSpatialModalSlide = (currentSpatialModalSlide - 1 + spatialModalSlides.length) % spatialModalSlides.length;
+            updateSpatialSlider();
+        });
+
+        nextSpatialSlide.addEventListener('click', () => {
+            currentSpatialModalSlide = (currentSpatialModalSlide + 1) % spatialModalSlides.length;
+            updateSpatialSlider();
+        });
+
+        spatialModalDots.forEach((dot, index) => {
+            dot.addEventListener('click', () => {
+                currentSpatialModalSlide = index;
+                updateSpatialSlider();
+            });
+        });
+
+        updateSpatialSlider();
+
+        const spatialTwoModal = document.getElementById('spatialTwoModal');
+        const openSpatialTwoButton = document.getElementById('openSpatialTwo');
+        const closeSpatialTwoButton = document.getElementById('closeSpatialTwo');
+        const spatialTwoTrack = document.getElementById('spatialTwoSliderTrack');
+        const spatialTwoSlides = spatialTwoTrack.querySelectorAll('.zine-slide');
+        const prevSpatialTwoSlide = document.getElementById('prevSpatialTwoSlide');
+        const nextSpatialTwoSlide = document.getElementById('nextSpatialTwoSlide');
+        const spatialTwoDots = spatialTwoModal.querySelectorAll('.zine-dot');
+
+        let currentSpatialTwoSlide = 0;
+
+        function updateSpatialTwoSlider() {
+            spatialTwoTrack.style.transform = `translateX(-${currentSpatialTwoSlide * 100}%)`;
+            spatialTwoDots.forEach((dot, index) => {
+                dot.classList.toggle('active', index === currentSpatialTwoSlide);
+            });
+        }
+
+        openSpatialTwoButton.addEventListener('click', () => {
+            currentSpatialTwoSlide = 0;
+            updateSpatialTwoSlider();
+            spatialTwoModal.classList.add('active');
+            spatialTwoModal.setAttribute('aria-hidden', 'false');
+        });
+
+        closeSpatialTwoButton.addEventListener('click', () => {
+            spatialTwoModal.classList.remove('active');
+            spatialTwoModal.setAttribute('aria-hidden', 'true');
+        });
+
+        spatialTwoModal.addEventListener('click', (e) => {
+            if (e.target === spatialTwoModal) {
+                spatialTwoModal.classList.remove('active');
+                spatialTwoModal.setAttribute('aria-hidden', 'true');
+            }
+        });
+
+        prevSpatialTwoSlide.addEventListener('click', () => {
+            currentSpatialTwoSlide = (currentSpatialTwoSlide - 1 + spatialTwoSlides.length) % spatialTwoSlides.length;
+            updateSpatialTwoSlider();
+        });
+
+        nextSpatialTwoSlide.addEventListener('click', () => {
+            currentSpatialTwoSlide = (currentSpatialTwoSlide + 1) % spatialTwoSlides.length;
+            updateSpatialTwoSlider();
+        });
+
+        spatialTwoDots.forEach((dot, index) => {
+            dot.addEventListener('click', () => {
+                currentSpatialTwoSlide = index;
+                updateSpatialTwoSlider();
+            });
+        });
+
+        updateSpatialTwoSlider();
+
+        const graphicFiveModal = document.getElementById('graphicFiveModal');
+        const openGraphicFiveButton = document.getElementById('openGraphicFive');
+        const closeGraphicFiveButton = document.getElementById('closeGraphicFive');
+        const graphicFiveTrack = document.getElementById('graphicFiveSliderTrack');
+        const graphicFiveSlides = graphicFiveTrack.querySelectorAll('.zine-slide');
+        const prevGraphicFiveSlide = document.getElementById('prevGraphicFiveSlide');
+        const nextGraphicFiveSlide = document.getElementById('nextGraphicFiveSlide');
+        const graphicFiveDots = graphicFiveModal.querySelectorAll('.zine-dot');
+
+        let currentGraphicFiveSlide = 0;
+
+        function updateGraphicFiveSlider() {
+            graphicFiveTrack.style.transform = `translateX(-${currentGraphicFiveSlide * 100}%)`;
+            graphicFiveDots.forEach((dot, index) => {
+                dot.classList.toggle('active', index === currentGraphicFiveSlide);
+            });
+        }
+
+        openGraphicFiveButton.addEventListener('click', () => {
+            currentGraphicFiveSlide = 0;
+            updateGraphicFiveSlider();
+            graphicFiveModal.classList.add('active');
+            graphicFiveModal.setAttribute('aria-hidden', 'false');
+        });
+
+        closeGraphicFiveButton.addEventListener('click', () => {
+            graphicFiveModal.classList.remove('active');
+            graphicFiveModal.setAttribute('aria-hidden', 'true');
+        });
+
+        graphicFiveModal.addEventListener('click', (e) => {
+            if (e.target === graphicFiveModal) {
+                graphicFiveModal.classList.remove('active');
+                graphicFiveModal.setAttribute('aria-hidden', 'true');
+            }
+        });
+
+        prevGraphicFiveSlide.addEventListener('click', () => {
+            currentGraphicFiveSlide = (currentGraphicFiveSlide - 1 + graphicFiveSlides.length) % graphicFiveSlides.length;
+            updateGraphicFiveSlider();
+        });
+
+        nextGraphicFiveSlide.addEventListener('click', () => {
+            currentGraphicFiveSlide = (currentGraphicFiveSlide + 1) % graphicFiveSlides.length;
+            updateGraphicFiveSlider();
+        });
+
+        graphicFiveDots.forEach((dot, index) => {
+            dot.addEventListener('click', () => {
+                currentGraphicFiveSlide = index;
+                updateGraphicFiveSlider();
+            });
+        });
+
+        updateGraphicFiveSlider();
+
+        const objectLabelsModal = document.getElementById('objectLabelsModal');
+        const openObjectLabelsButton = document.getElementById('openObjectLabels');
+        const closeObjectLabelsButton = document.getElementById('closeObjectLabels');
+        const objectLabelsTrack = document.getElementById('objectLabelsSliderTrack');
+        const objectLabelSlides = objectLabelsTrack.querySelectorAll('.zine-slide');
+        const prevObjectLabelButton = document.getElementById('prevObjectLabel');
+        const nextObjectLabelButton = document.getElementById('nextObjectLabel');
+        const objectLabelDots = objectLabelsModal.querySelectorAll('.zine-dot');
+
+        let currentObjectLabel = 0;
+
+        function updateObjectLabelsSlider() {
+            objectLabelsTrack.style.transform = `translateX(-${currentObjectLabel * 100}%)`;
+            objectLabelDots.forEach((dot, index) => {
+                dot.classList.toggle('active', index === currentObjectLabel);
+            });
+        }
+
+        function closeObjectLabels() {
+            objectLabelsModal.classList.remove('active');
+            objectLabelsModal.setAttribute('aria-hidden', 'true');
+            openObjectLabelsButton.focus();
+        }
+
+        openObjectLabelsButton.addEventListener('click', () => {
+            currentObjectLabel = 0;
+            updateObjectLabelsSlider();
+            objectLabelsModal.classList.add('active');
+            objectLabelsModal.setAttribute('aria-hidden', 'false');
+            closeObjectLabelsButton.focus();
+        });
+
+        closeObjectLabelsButton.addEventListener('click', closeObjectLabels);
+
+        objectLabelsModal.addEventListener('click', (event) => {
+            if (event.target === objectLabelsModal) {
+                closeObjectLabels();
+            }
+        });
+
+        prevObjectLabelButton.addEventListener('click', () => {
+            currentObjectLabel = (currentObjectLabel - 1 + objectLabelSlides.length) % objectLabelSlides.length;
+            updateObjectLabelsSlider();
+        });
+
+        nextObjectLabelButton.addEventListener('click', () => {
+            currentObjectLabel = (currentObjectLabel + 1) % objectLabelSlides.length;
+            updateObjectLabelsSlider();
+        });
+
+        objectLabelDots.forEach((dot, index) => {
+            dot.addEventListener('click', () => {
+                currentObjectLabel = index;
+                updateObjectLabelsSlider();
+            });
+        });
+
+        document.addEventListener('keydown', (event) => {
+            if (event.key === 'Escape' && objectLabelsModal.classList.contains('active')) {
+                closeObjectLabels();
+            }
+        });
+
+        updateObjectLabelsSlider();
+    </script>
+</body>
+</html>
